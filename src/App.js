@@ -1,4 +1,4 @@
-import browserHistory from './components/browserHistory'
+import BrowserHistory from './components/browserHistory'
 
 import './App.css'
 
@@ -77,6 +77,6 @@ const initialHistoryList = [
     domainUrl: 'google.com',
   },
 ]
-const App = () => <browserHistory initialHistoryList={initialHistoryList} />
+const App = () => <BrowserHistory initialHistoryList={initialHistoryList} />
 
 export default App

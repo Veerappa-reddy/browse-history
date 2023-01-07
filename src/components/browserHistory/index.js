@@ -4,7 +4,7 @@ import HistoryItem from '../HistoryItem'
 
 import './index.css'
 
-class browserHistory extends Component {
+class BrowserHistory extends Component {
   state = {
     searchInput: '',
     historyList: [],
@@ -86,4 +86,4 @@ class browserHistory extends Component {
   }
 }
 
-export default browserHistory
+export default BrowserHistory
